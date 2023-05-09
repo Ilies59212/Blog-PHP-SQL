@@ -1,0 +1,24 @@
+Sur PHP MY ADMIN 
+
+1 : Créer une table utilisateur || nom, prenom, date_de_naissance, user_id, droits, date (time_stamp) et password
+
+2 : Créer une table droits || nom, theme_id
+
+3 : Créer une table theme || titre, thème, paragraphe, lien_image, news_id, user_id
+
+4 : Créer une table news || user_id, news_id
+
+5 : Créer une table auteur_de || superviseur id 1, administrateur id 2, membre id 3
+
+
+
+configuration.php = accès bdd + lien vers main.css + lien vers page d'accueil
+
+index.php = page d'accueil blog + formulaire de connexion qui renvoit vers blog.php + bouton inscription
+
+inscription.php = page d'inscription
+
+blog.php = page affichant contenu du blog + fonction poster une news avec photo si membre reconnu + fonction filtrer le news suivant thème ou auteur + fonction déconnecter
+
+administration.php = page permettant gestion du blog + modif compte d'un membre + supprimer membre + modifier contenu news + supprimer news 
+
